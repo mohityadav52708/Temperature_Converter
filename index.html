@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+      <div class="container">
+        <div class="mainhome">
+          <h1 style="color: white;margin-top: 2rem;">Temperature Converter </h1>
+        <div class="home">
+                <div class="firstinput">
+            <input type="number" id="inputTemperature" placeholder="Enter temperature">
+      <select id="unitFrom">
+        <option id="option" value="celsius">Celsius</option>
+        <option id="option" value="fahrenheit">Fahrenheit</option>
+        <option id="option" value="kelvin">Kelvin</option>
+      </select>
+        </div>
+        <div class="secondinput">
+            <button onclick="convertTemperature()">Convert</button>
+            <select id="unitTo">
+              <option id="option" value="celsius">Celsius</option>
+              <option id="option" value="fahrenheit">Fahrenheit</option>
+              <option id="option" value="kelvin">Kelvin</option>
+            </select>
+        </div>
+        <p id="result"></p> 
+      </div>
+      </div>
+      </div>
+
+  <script src="aap.js"></script>
+</body>
+</html>
